@@ -4,7 +4,7 @@ In this project we showcase how to configure and host Solr/Lucene in Windows Azu
 
 As part of this install the following Microsoft or third party software will be installed on your local machine as following: 
 
-- Solr/Lucene which is owned by The Apache Software Foundation., will be downloaded from http://www.apache.org/dyn/closer.cgi/lucene/solr/.The license agreement to Apache License, Version 2.0 may be included with the software.  You are responsible for and must separately locate, read and accept these license terms.
+- Solr/Lucene which is owned by The Apache Software Foundation., will be downloaded from http://www.apache.org/dyn/closer.cgi/lucene/solr/. The license agreement to Apache License, Version 2.0 may be included with the software.  You are responsible for and must separately locate, read and accept these license terms.
 
 - Microsoft Windows Azure SDK for .Net and NodeJS which is owned by Microsoft , will be downloaded from http://www.microsoft.com/windowsazure/sdk/.
 
@@ -24,9 +24,9 @@ You are responsible for and must locate and read the license terms for each of t
 5. Note if you start with a clean machine:  To download public setting file the enhanced security configuration of IE needs to be disabled. Go to Server Manager -> configure IE ESC -> disable for Administrators.
 
 ## Copy the binaries
-1. Download and extract on your local computer the latest version SolrInstWRMMDDYYYY.zip (for example SolrInstWR06072012.zip) from https://github.com/MSOpenTech/Windows-Azure-Solr/downloads.
+1. Download and extract on your local computer the latest version SolrInstWRMMDDYYYY.zip (for example SolrInstWR06072012.zip) from https://github.com/MSOpenTech/Windows-Azure-Solr/downloads
 
-2. Please make sure that you unblock all the dll’s and config files using instructions at http://msdn.microsoft.com/en-us/library/ee890038(VS.100).aspx. 
+2. Please make sure that you unblock all the dll's and config files using instructions at http://msdn.microsoft.com/en-us/library/ee890038(VS.100).aspx. 
 
 3. Launch a command prompt (cmd.exe) as an administrator and cd to the local folder selected above.
 
@@ -39,9 +39,9 @@ Do not write your publish settings over an existing file. The installer will be 
 
 ## Administering Solr/Lucene
 
-In the panel for your deployment you will find the DNS name `http://<Deployment_Endpoint>.cloudapp.net`
+In the panel for your deployment you will find the DNS name 'http://<Deployment_Endpoint>.cloudapp.net'
 
-- Start in a browser `http://<Deployment_Endpoint>.cloudapp.net` to the typical tasks for Solr
+- Start in a browser 'http://<Deployment_Endpoint>.cloudapp.net' to the typical tasks for Solr
 - Crawl or Import data from the sample Windows Azure blob in the Crawl or Import tabs
 - Validate that the index is replicated across SolrSlave  instances on the Home tab by checking the index size.
 - After the index is replicated execute a search in the Search tab
