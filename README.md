@@ -4,7 +4,7 @@ In this project we showcase how to configure and host Solr/Lucene in Windows Azu
 
 As part of this install the following Microsoft or third party software will be installed on your local machine as following: 
 
-- Solr/Lucene which is owned by The Apache Software Foundation., will be downloaded from http://www.apache.org/dyn/closer.cgi/lucene/solr/.The license agreement to Apache License, Version 2.0 may be included with the software.  You are responsible for and must separately locate, read and accept these license terms.
+- Solr/Lucene which is owned by The Apache Software Foundation., will be downloaded from http://www.apache.org/dyn/closer.cgi/lucene/solr/. The license agreement to Apache License, Version 2.0 may be included with the software.  You are responsible for and must separately locate, read and accept these license terms.
 
 - Microsoft Windows Azure SDK for .Net and NodeJS which is owned by Microsoft , will be downloaded from http://www.microsoft.com/windowsazure/sdk/.
 
@@ -26,7 +26,7 @@ You are responsible for and must locate and read the license terms for each of t
 ## Copy the binaries
 1. Download and extract on your local computer the latest version SolrInstWRMMDDYYYY.zip (for example SolrInstWR06072012.zip) from https://github.com/MSOpenTech/Windows-Azure-Solr/downloads.
 
-2. Please make sure that you unblock all the dll’s and config files using instructions at http://msdn.microsoft.com/en-us/library/ee890038(VS.100).aspx. 
+2. Please make sure that you unblock all the dllï¿½s and config files using instructions at http://msdn.microsoft.com/en-us/library/ee890038(VS.100).aspx. 
 
 3. Launch a command prompt (cmd.exe) as an administrator and cd to the local folder selected above.
 
